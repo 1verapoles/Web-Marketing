@@ -31,7 +31,7 @@ $data = json_decode($json, true);
 				  <ul class="navbar-nav">
 					<?php foreach ($data["nav"] as $key => $value) { ?>
 					<li class="nav-item">
-					  <a class="nav-link" href="<?php echo $value['href'];?></a>"><?php echo $value["text"];?></a>
+					  <a class="nav-link" href="<?php echo $value['href'];?>"><?php echo $value["text"];?></a>
 					</li>
 					<?php }?>
 				  </ul>
